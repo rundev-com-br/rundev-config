@@ -1,6 +1,7 @@
 {
-    "name": "rundev/config",
+    "name": "rundev/rundev-config",
     "description": "Config standards recommendations",
+    "homepage": "https://github.com/rundev-com-br/rundev-config",
     "license": "MIT",
     "type": "library",
     "authors": [
