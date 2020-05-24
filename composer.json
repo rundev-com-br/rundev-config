@@ -1,0 +1,18 @@
+{
+    "name": "rundev/config",
+    "description": "Config standards recommendations",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeferson Ferreira",
+            "email": "jeferson@rundev.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RunDev\\Config\\": "src/"
+        }
+    },
+    "require": {}
+}
