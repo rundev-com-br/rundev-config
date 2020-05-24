@@ -16,5 +16,10 @@
             "RunDev\\Config\\": "src/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "master": "0.0.1"
+        }
+    },
     "require": {}
 }
