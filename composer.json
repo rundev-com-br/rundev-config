@@ -24,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "master": "0.0.1"
+            "master": "0.0.2"
         }
     },
     "repositories": [
