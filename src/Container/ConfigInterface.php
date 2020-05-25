@@ -4,13 +4,12 @@
 namespace RunDev\Config\Container;
 
 
-use IteratorAggregate;
-
+/**
+ * Interface ConfigInterface
+ * @package RunDev\Config\Container
+ */
 interface ConfigInterface
 {
-    /**
-     * @return IteratorAggregate Returns configuration to merge with application configuration
-     *
-     */
-    public function getConfig(): IteratorAggregate;
+    public function addConfig(string $key, callable $config): void;
+    public function getConfig(): array;
 }
