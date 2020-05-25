@@ -22,11 +22,6 @@
             "RunDev\\Config\\App\\": "tests/src"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "master": "0.0.1"
-        }
-    },
     "repositories": [
         {"type": "composer", "url": "https://rundev.repo.repman.io"}
     ],
