@@ -1,13 +1,13 @@
 {
     "name": "rundev/rundev-config",
-    "description": "Config standards recommendations",
+    "description": "Specification for configuring an application based on the Onion Architecture using PSR 11 for the dependency injection container.",
     "homepage": "https://github.com/rundev-com-br/rundev-config",
     "license": "MIT",
     "type": "library",
     "version": "0.0.1",
     "authors": [
         {
-            "name": "Jeferson Ferreira",
+            "name": "Jeferson Ferreira da Silva",
             "email": "jeferson@rundev.com.br"
         }
     ],
@@ -16,10 +16,24 @@
             "RunDev\\Config\\": "src/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "master": "0.0.1"
+    "autoload-dev": {
+        "psr-4": {
+            "RunDev\\Config\\Test\\": "tests/test",
+            "RunDev\\Config\\App\\": "tests/src"
         }
     },
-    "require": {}
+    "extra": {
+        "branch-alias": {
+            "master": "0.0.2"
+        }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://rundev.repo.repman.io"}
+    ],
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
 }
