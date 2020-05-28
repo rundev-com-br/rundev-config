@@ -4,7 +4,7 @@
     "homepage": "https://github.com/rundev-com-br/rundev-config",
     "license": "MIT",
     "type": "library",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "Jeferson Ferreira da Silva",
@@ -16,17 +16,8 @@
             "RunDev\\Config\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "RunDev\\Config\\Test\\": "tests/test",
-            "RunDev\\Config\\App\\": "tests/src"
-        }
-    },
     "minimum-stability": "stable",
     "require": {
         "psr/container": "^1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.1"
     }
 }
